@@ -24,7 +24,7 @@
     <td align="center">Java</td>
     <td align="center">Java</td>
     <td align="center">Java</td>
-    <td align="center">Pytho, JavaSctipt</td>
+    <td align="center">Python, JavaSctipt</td>
   </tr>
 </table>
 
