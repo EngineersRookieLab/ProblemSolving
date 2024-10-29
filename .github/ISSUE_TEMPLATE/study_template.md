@@ -1,7 +1,7 @@
 ---
 name: 스터디 이슈 템플릿
 about: 스터디 주차별 문제를 기록하기 위한 템플릿입니다.
-title: '[x주차]'
+title: 'x주차'
 labels: ''
 assignees: ''
 
