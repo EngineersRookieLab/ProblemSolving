@@ -29,24 +29,6 @@
   </tr>
 </table>
 
-
-## 진행 내용
-
-<table>
-  <tr>
-    <td align="center">주차</td>
-    <td align="center">문제 이름</td>
-    <td align="center">문제 링크</td>
-  </tr>
- <tr>
-    <td align="center">1주차(2024.10.31 목)</td>
-    <td align="center">완주하지 못한 선수</td>
-    <td align="center">https://school.programmers.co.kr/learn/courses/30/lessons/1845</td>
-  </tr>
-  <tr>
-    <td align="center">1주차(2024.10.31 목)</td>
-    <td align="center">폰켓몬</td>
-    <td align="center">https://school.programmers.co.kr/learn/courses/30/lessons/42576</td>
-  </tr>
-</table>
+## 진행 방법
+- 매주 목요일마다 이슈에 주차별 문제를 뽑은 후 차주 목요일까지 풀이
 
