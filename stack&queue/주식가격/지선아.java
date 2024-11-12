@@ -9,14 +9,16 @@ class Solution {
         }
         while (!queue.isEmpty()) {
             int[] currentStock = queue.poll();
-            Optional<int[]> first = queue.stream().filter(arr -> arr[0] < currentStock[0]).findFirst();
             int remainTime = prices.length - currentStock[1] - 1;
-            if (first.isPresent()) {
-                int[] drop = first.get();
-                remainTime = drop[1] - currentStock[1];
+            for (int i = currentStock[1] + 1; i < prices.length; i++) {
+                if (prices[i] < currentStock[0]) {
+                    remainTime = i- currentStock[1];
+                    break;
+                }
             }
             remainTimes[currentStock[1]] = remainTime;
         }
         return remainTimes;
     }
+
 }
